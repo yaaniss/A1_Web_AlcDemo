@@ -1,0 +1,39 @@
+
+body{
+  margin: 0%;
+}
+#grille{
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 9fr ;
+}
+#case1{
+  border: 1rem solid;
+  text-align: center;
+  padding: 1em;
+  background-color: red;
+}
+#case2{
+  text-align: center;
+  background-color: green;
+}
+#case3{
+  text-align: center;
+  background-color: grey;
+}
+#case4{
+  text-align: center;
+  background-color: green;
+}
+#case5{
+  text-align: center;
+  background-color: red;
+}
+#case6{
+  text-align: center;
+  background-color: grey;
+}
+h2{
+  text-align: center;
+}
+
