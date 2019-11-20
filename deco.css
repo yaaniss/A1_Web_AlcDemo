@@ -8,31 +8,53 @@ body{
   grid-template-rows: 9fr ;
 }
 #case1{
-  border: 1rem solid;
+  border: 0.3cm solid;
   text-align: center;
   padding: 1em;
-  background-color: red;
-}
-#case2{
-  background-color: green;
-}
-#case3{
-  text-align: center;
-  background-color: grey;
-}
-#case4{
-  text-align: center;
-  background-color: green;
-}
-#case5{
-  text-align: center;
-  background-color: red;
-}
-#case6{
-  text-align: center;
-  background-color: grey;
+  background-color:rgb(124, 4, 4);
+  color: aliceblue;
 }
 h2{
   text-align: center;
+}
+#menu{
+margin: 0% ;
+padding: 0% ;
+list-style: none ;
+text-align: center ;
+}
+#menu li{
+  display: inline ;
+  margin-right: 7px;
+}
+#menu li a{
+  padding: 0px 30px ;
+  font: 1em ;
+  text-align: center ;
+  color: aliceblue;
+}
+#case2{
+  background-color:black ;
+  border: 0.2cm solid;
+}
+#case3{
+  border: 0.1cm solid;
+  background-color: rgb(131, 116, 30);
+  padding: 5px;
+}
+#case4{ 
+  border: 0.1cm solid;
+  background-color: rgb(131, 116, 30);
+  padding: 5px;
+}
+#case5{
+  border: 0.1cm solid;
+  text-align: center;
+  background-color: rgb(131, 116, 30);
+}
+#case6{
+  border: 0.1cm solid;
+  text-align: center;
+  background-color: rgb(131, 116, 30);
 }
 
